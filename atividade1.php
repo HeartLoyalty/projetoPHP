@@ -115,3 +115,16 @@
 				alunos reprovados: $r</br>
 				media total da clase: $classMedia</br>";
  ?>
+
+ <?php 
+
+ $media;
+
+
+ for ($aluno=1; $aluno <=6 ; $aluno++) { 
+ 		for ($notas=1; $notas <=2 ; $notas++) { 
+ 				$media = ($nota1 + $nota2) /2
+ 		}
+ }
+ 
+  ?>
