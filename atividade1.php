@@ -10,9 +10,8 @@
 
  for ($aluno=1; $aluno <=6 ; $aluno++) { 
  		for ($notas=1; $notas <=2 ; $notas++) { 
- 				$nota;
+ 				$nota = 6;
  				$soma = $soma + $nota;
-
  		}
  		 $media = $soma/2;
 
@@ -27,11 +26,8 @@
 		$aluno = "Aprovado";
 		$a = $a + 1;
 	}
-
  		echo "aluno $aluno media: $media</br>";
  		$totalMedia = $totalMedia + $media;
- 		
-
  }
 		$totalMedia = $totalMedia/6;
 
